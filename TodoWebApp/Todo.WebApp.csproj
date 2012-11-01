@@ -82,24 +82,10 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Optimization">
-      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Providers">
-      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.1\lib\net40\System.Web.Providers.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Thinktecture.IdentityModel, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Thinktecture.IdentityModel.2.2.1\lib\net45\Thinktecture.IdentityModel.dll</HintPath>
-    </Reference>
-    <Reference Include="WebGrease">
-      <Private>True</Private>
-      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
-    </Reference>
-    <Reference Include="Antlr3.Runtime">
-      <Private>True</Private>
-      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -113,7 +99,7 @@
   <ItemGroup>
     <Content Include="images\loading-image.gif" />
     <Content Include="js\applicationConstants.js" />
-    <Content Include="js\services\oauthcallback.html" />
+    <Content Include="oauthcallback.html" />
     <Content Include="js\viewmodels\oauth2ViewModel.js" />
     <Content Include="images\noimage.png" />
     <Content Include="index.html" />
@@ -125,9 +111,6 @@
     <Content Include="images\succ_close.png" />
     <Content Include="images\warn_bg.png" />
     <Content Include="images\warn_close.png" />
-    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.8.2.js" />
-    <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="styles\jquery_notification.css" />
     <Content Include="styles\kendo.dataviz.min.css" />
     <Content Include="js\libs\jquery.ba-bbq.min.js" />

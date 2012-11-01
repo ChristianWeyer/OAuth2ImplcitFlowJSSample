@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Todo.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Todo.WebApi.TodosController">
+            <summary>
+            The controller for TODO items.
+            </summary>
+        </member>
+        <member name="M:Todo.WebApi.TodosController.Get">
+            <summary>
+            List available TODO items.
+            </summary>
+            <returns>List of items.</returns>        
+        </member>
+    </members>
+</doc>
