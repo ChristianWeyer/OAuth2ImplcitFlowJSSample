@@ -1,8 +1,9 @@
 var oauth2ViewModel = kendo.observable({
     token: "",
     
-    openAuthWindow: function (url) {
-        window.open(url, "Login", "height=400,width=250");
+    openAuthWindow: function () {
+        var url = endpoints.IdpOauthEndpointUrl + "?" + $.param(oAuthConfig);
+        window.open(url, "Login", "height=500,width=350");
     },
     
     loginCallback: function (params) {

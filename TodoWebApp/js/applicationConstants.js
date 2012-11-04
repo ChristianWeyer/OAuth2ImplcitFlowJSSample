@@ -2,5 +2,12 @@ var servicesBaseUrl = "";
 
 var endpoints = {
     ServiceEndpointUrl: servicesBaseUrl + "api/todos/",
-    IdpOauthEndpointUrl: "https://localhost/idsrv/issue/oauth2/authorize?client_id=tt_tudus&scope=http%3A%2F%2Ftt.com%2Fmobile%2Ftodos&response_type=token&redirect_uri=http%3A%2F%2Flocalhost%2Fsimpletudus%2Foauthcallback.html"
+    IdpOauthEndpointUrl: "https://localhost/idsrv/issue/oauth2/authorize"
 };
+
+var oAuthConfig = {
+    client_id: "tt_tudus",
+    scope: "http://tt.com/mobile/todos",
+    response_type: "token",
+    redirect_uri: "http://localhost/simpletudus/oauthcallback.html"
+}
